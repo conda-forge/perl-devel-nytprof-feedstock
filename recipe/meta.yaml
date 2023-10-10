@@ -1,6 +1,6 @@
 {% set name = "perl-devel-nytprof" %}
-{% set version = "6.12" %}
-{% set sha256 = "a83b5985e4da96bdb85f531c16ab6f3d49071a733cd094aa30fa85fb6a4b02c4" %}
+{% set version = "6.13" %}
+{% set sha256 = "dab804633142d241fbf12cda9a8b6b28f34307eec7b27022f4d6d1345d07dd23" %}
 
 package:
   name: {{ name }}
