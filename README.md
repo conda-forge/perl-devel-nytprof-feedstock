@@ -1,11 +1,24 @@
+About perl-devel-nytprof-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-devel-nytprof-feedstock/blob/main/LICENSE.txt)
+
+
 About perl-devel-nytprof
-========================
+------------------------
 
 Home: https://code.google.com/archive/p/perl-devel-nytprof
 
 Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-devel-nytprof-feedstock/blob/main/LICENSE.txt)
+Summary: Powerful fast feature-rich Perl source code profiler
+
+About perl-devel-nytprof
+------------------------
+
+Home: https://code.google.com/archive/p/perl-devel-nytprof
+
+Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
 Summary: Powerful fast feature-rich Perl source code profiler
 
