@@ -54,7 +54,6 @@ test:
     - nytprofcsv --help >/dev/null
     - nytprofhtml --help >/dev/null
     - nytprofmerge --help >/dev/null
-    - nytprofpf --help >/dev/null
 
 about:
   home: https://code.google.com/archive/p/perl-devel-nytprof
