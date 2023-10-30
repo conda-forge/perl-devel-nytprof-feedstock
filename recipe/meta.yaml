@@ -23,7 +23,7 @@ requirements:
     - {{ compiler('c') }}
   host:
     - perl
-    - perl-extutils-makemaker <=7.64
+    - perl-extutils-makemaker <=7.62
     - perl-capture-tiny
     - perl-file-which
     - perl-json-maybexs
