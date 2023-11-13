@@ -12,7 +12,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 0
+  number: 1
   run_exports:
     weak:
       - {{ name }} ={{ version }}
@@ -23,6 +23,7 @@ requirements:
     - {{ compiler('c') }}
   host:
     - perl
+    - perl-extutils-makemaker <=7.62
     - perl-capture-tiny
     - perl-file-which
     - perl-json-maybexs
@@ -54,7 +55,6 @@ test:
     - nytprofcsv --help >/dev/null
     - nytprofhtml --help >/dev/null
     - nytprofmerge --help >/dev/null
-    - nytprofpf --help >/dev/null
 
 about:
   home: https://code.google.com/archive/p/perl-devel-nytprof
