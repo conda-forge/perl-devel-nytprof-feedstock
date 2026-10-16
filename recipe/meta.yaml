@@ -1,6 +1,6 @@
 {% set name = "perl-devel-nytprof" %}
-{% set version = "6.14" %}
-{% set sha256 = "ac24dd7da5b2247696becefc15ca935484367743aad44cb2c8cfa17a29ad8e03" %}
+{% set version = "6.16" %}
+{% set sha256 = "c5553739fbcdf0699df47554fc5e32c4e68ca7876511eef7aceffb6db27badda" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 1
+  number: 0
   run_exports:
     weak:
       - {{ name }} ={{ version }}
@@ -21,6 +21,7 @@ requirements:
   build:
     - make
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - perl
     - perl-capture-tiny
